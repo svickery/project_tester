@@ -4,21 +4,39 @@ body    {
     height: 100%;
     margin: 0;
     font-family: "Rubik", sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%
+}
+
+.navbar-toggler-icon    {
+    color: white;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("/static/img/home2.jpg");
-    opacity: 0.7;
 
     /* Set a specific height */
     min-height: 500px;
+    width: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax1  {
+    background-image: url("/static/img/home2.jpg");
+    opacity: 0.7;
+}
+
+.parallax2  {
+    background-image: url("/static/img/home.jpg");
+    opacity: 0.7;
 }
 
 /* Place text in the middle of the image */
@@ -49,3 +67,10 @@ body    {
     color: black;
 }
 
+.container-fluid  {
+    background-color: black;
+}
+
+.copyright  {
+    background-color: black;
+}
